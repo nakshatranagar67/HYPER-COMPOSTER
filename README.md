@@ -1,83 +1,42 @@
-🎯 Project Overview
-Hyper-Composter BSFL Automaton is an IoT-enabled, biologically-driven waste processing unit that converts organic waste into high-value biomass using Black Soldier Fly Larvae (BSFL). Unlike traditional composting (months), this system processes waste 50x faster while generating verifiable data for a Trace & Trade ecosystem.
+Project Overview
 
-Status: Funded Prototype | Ready for Deployment
+Hyper-Composter BSFL Automaton is an IoT-enabled, biologically driven waste processing system that converts organic waste into high-value biomass using Black Soldier Fly Larvae (BSFL). Unlike traditional composting methods that take months, this system processes waste within 24–48 hours while generating verifiable operational data. It is designed for decentralized, urban deployment with a focus on speed, traceability, and sustainability.
 
-💰 Funding & Support
-Institution	Amount	Purpose
-VVCE College	₹2 Lakhs	R&D Grant
-Telangana Pollution Control HQ	₹1 Lakh	Deployment Funding
-Total Raised: ₹3 Lakhs
+Status: Prototype completed and ready for deployment
 
-🚀 Key Features
-text
-📊 50x Faster Processing (24-48 hours vs months)
-♻️ Dual Revenue: Frass Fertilizer + Protein Feed  
-🤖 Fully Automated Life Support System
-🔗 100% Traceable for Carbon Credits
-🏙️ Urban-Ready Compact Design
-🌱 Carbon Negative Operation
-🧪 How It Works
-text
-1. INPUT: Organic Waste (food scraps, kitchen waste)
-   ↓
-2. BSFL Processing: 90% volume reduction in 24-48 hrs
-   ↓
-3. OUTPUT: 
-   • Frass (Premium Organic Fertilizer)
-   • Pre-pupae (High-Protein Animal Feed)
-   ↓
-4. SENSOR DATA → Digital Ledger → Tradeable Credits
-Optimal Conditions: 27-30°C | 60-70% Humidity | Aerobic Environment
+Key Features
+Processes organic waste up to 50× faster than conventional composting
+Achieves ~90% waste volume reduction within 24–48 hours
+Produces two outputs: organic fertilizer (frass) and protein-rich feed (pre-pupae)
+Fully automated environmental control using sensors and actuators
+Generates traceable data for monitoring and future carbon credit integration
+Compact and modular design suitable for urban environments
+Operates under aerobic conditions, minimizing methane emissions
+Process Overview
 
-🎨 Live Demo
-Production Website: hyper-composter-ecochamp.netlify.app
+Organic waste such as food scraps is fed into the system, where BSFL rapidly consume and break it down. Within 24–48 hours, the waste is reduced by approximately 90%. The outputs include frass, which serves as a high-quality organic fertilizer, and pre-pupae, which can be used as protein-rich animal feed. Simultaneously, environmental and process data are captured through sensors and can be logged into a digital system for traceability and analytics.
 
-Features:
+Optimal Conditions: 27–30°C, 60–70% humidity, controlled aerobic environment
 
-Responsive glassmorphism design
+Problem and Solution
+High transportation costs → On-site processing reduces waste volume before transport
+Landfill overflow → Rapid conversion cycle reduces landfill dependency
+Lack of accountability in waste handling → Sensor-based monitoring ensures traceability
+Methane emissions from anaerobic decomposition → Aerobic system design reduces emissions
+Technical Overview
+Microcontroller: ESP32
+Sensors: DHT22 (temperature and humidity), MQ-137 (ammonia)
+Actuators: Ventilation fan, misting system
+Control system: Relay-based automation
+Power supply: 5V portable system
+Impact
+Significant reduction in waste volume within short timeframes
+Faster processing compared to traditional methods
+Conversion of waste into economically valuable outputs
+Reduced greenhouse gas emissions through controlled aerobic processing
+Foundation for data-driven waste management and traceability systems
+Team
 
-Smooth scroll animations
-
-Mobile hamburger menu
-
-Active nav highlighting
-
-Hover effects on all elements
-
-📁 Project Structure
-text
-hyper-composter/
-├── index.html          # Single-page production site
-├── assets/
-│   ├── images/         # Prototype photos (PPTX extracted)
-│   └── documents/      # ECOCHAMP-IDEA.docx source
-├── README.md           # This file
-└── deployment.md       # Hosting instructions
-🎯 Problem Solved
-Current Problem	Hyper-Composter Solution	Impact
-High transport costs	Process at source	90% weight reduction
-Landfill overflow	Rapid BSFL processing	24-48 hour cycle
-No accountability	IoT sensor verification	100% traceability
-Methane emissions	Aerobic control	Carbon negative
-🛠 Technical Stack (Prototype - Removed from Public Site)
-text
-🧠 Control: ESP32 Microcontroller
-🌡️️ Sensors: DHT22 (Temp/Humidity), MQ-137 (Ammonia)
-💨 Actuators: 5V Fan, Ultrasonic Mist Maker
-🔌 Relays: 2-Channel 5V Module
-⚡ Power: 5V 2A USB Power Bank
-📈 Impact Metrics
-text
-✅ Waste Volume Reduction: 90% in 24-48 hours
-✅ Processing Speed: 50x faster than composting
-✅ Methane Reduction: 100% aerobic processing
-✅ Economic Value: Waste → Fertilizer + Protein
-✅ Traceability: Blockchain-ready sensor logs
-🎓 Team
-Team Lead: Nakshatra Nagar
-Contact:
-📞 7980383506
-✉️ hoodgemini01@gmail.com
-
-Location: Ranebennur, Karnataka, India
+Nakshatra Nagar – Team Lead
+Kushal M- Tech lead
+Nandan R- Hardware and communication lead 
